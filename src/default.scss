@@ -1,0 +1,42 @@
+html{
+    font-size: 10px;
+}
+
+html,
+body,
+#root,
+.app{
+    height: 100%;
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a, a:hover{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.main{
+    width: 100%;
+    max-width: 1170px;
+    height: calc(100% - 7.5rem);
+    margin: 0 auto;
+}
